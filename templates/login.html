@@ -1,0 +1,13 @@
+<form method="post">
+
+    {% csrf_token %}
+
+    <p>Enter username/email:</p><br>
+    <input type="text" name="identifier">
+    <br>
+    <p>Password:</p><br>
+    <input type="password" name="password"><br><br>
+
+    <input type="submit">
+
+</form>
