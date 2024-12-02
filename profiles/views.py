@@ -93,6 +93,7 @@ def signup(request):
             messages.info(request,"Passwords are not the same")
             return redirect('')
         return render(request,'signup.html')
+    return render(request,'signup.html')
 
 def login(request):
     if request.method == "POST":
